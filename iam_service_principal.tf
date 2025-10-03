@@ -20,7 +20,7 @@ resource "aws_iam_role_policy" "lambda_dynamo_policy_violation" {
     Statement = [{
       Effect   = "Allow",
       Action   = "dynamodb:GetItem",
-      // VIOLATION: Wildcard resource grants access to all tables.
+      
       Resource = "arn:aws:dynamodb:us-east-1:123456789012:table/*" 
     }]
   })
