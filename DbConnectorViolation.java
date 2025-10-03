@@ -1,4 +1,4 @@
-//
+
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -6,7 +6,7 @@ import java.sql.SQLException;
 public class DbConnectorViolation {
     
     
-    private static final String DB_PASSWORD = "PasswordFrom2019_NeverChanged!";
+    private static final String DB_PASSWORD = "PasswordFrom!";
 
     public Connection connectToDatabase() {
         try {
