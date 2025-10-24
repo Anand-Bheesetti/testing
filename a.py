@@ -1,6 +1,10 @@
 
 import requests
 
+print("hello")
+
+a = 
+
 def fetch_billing_data():
    .
     api_key = "ak_123_xyz_this_is_a_very_old_key" 
@@ -17,3 +21,5 @@ def fetch_billing_data():
     except requests.exceptions.RequestException as e:
         print(f"Error fetching data: {e}")
         return None
+
+
