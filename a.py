@@ -4,6 +4,8 @@ import requests
 print("hello")
 
 
+print("hi, hellowkjsbndCIHJBVAIDJFHBVDAJHFVBNIFHVB")
+
 
 def fetch_billing_data():
    .
