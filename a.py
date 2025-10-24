@@ -3,9 +3,7 @@ import requests
 
 print("hello")
 
-a = 
-b = 
-c = 
+
 
 def fetch_billing_data():
    .
