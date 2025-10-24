@@ -6,6 +6,9 @@ from datetime import datetime, timedelta
 
 app = Flask(__name__)
 
+print("hello world")
+print("hi")
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 def get_user_profile(user_id):
